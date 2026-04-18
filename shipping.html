@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ridgeport Logistics</title>
+  <link rel="stylesheet" href="shipping.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="/" class="logo" aria-label="Ridgeport Logistics Home">
+        <img src="logo.jpg" alt="Ridgeport Logistics logo">
+        <span>Ridgeport Logistics</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#track">Track Shipment</a></li>
+        </ul>
+      </nav>
+
+      <button class="quote-button" type="button">Get a Quote</button>
+
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Global Logistics, Delivered with Precision</h1>
+        <p class="second-para">
+          From air freight to ocean cargo, we provide end-to-end logistics solutions 
+          that connect your business to 180+ countries. Fast, reliable, and always on time.
+        </p>
+
+        <div class="input-section">
+          <form class="tracking-form" action="/track" method="get">
+            <input class="Track-input" type="text" placeholder="Enter your tracking number" aria-label="Shipment tracking number" required>
+            <button class="track-button" type="submit">
+              Track Shipment <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+          <p class="track-hint">Enter your tracking number to get real-time updates on your shipment</p>
+          <div class="shipment-symbol"><i class="fas fa-box fa-3x"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-item">
+        <i class="fas fa-globe"></i>
+        <h3>190+</h3>
+        <p>COUNTRIES SERVED</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-boxes-stacked"></i>
+        <h3>2M+</h3>
+        <p>SHIPMENTS DELIVERED</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-clock"></i>
+        <h3>25+</h3>
+        <p>YEARS EXPERIENCE</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-check-circle"></i>
+        <h3>99%</h3>
+        <p>DELIVERY SUCCESS</p>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="service-heading">
+        <div class="circle">
+          <i class="fas fa-bolt"></i>
+          <h2>Our Services</h2>
+        </div>
+      </div>
+
+      <h2 class="service-head">Comprehensive Logistics Solutions</h2>
+      <p class="service-para">
+        From express courier to ocean freight, we offer a complete range of shipping 
+        and logistics services tailored to your business needs.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="domestic.jpg" alt="Domestic Shipping">
+          <div class="service-content">
+            <h3>Domestic Shipping</h3>
+            <p>Fast and reliable nationwide delivery with real-time tracking. Same-day and next-day options available for urgent shipments.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="international.jpg" alt="International Shipping">
+          <div class="service-content">
+            <h3>International Shipping</h3>
+            <p>Seamless cross-border logistics to 190+ countries. Customs clearance and documentation handled by our expert team.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="air.jpg" alt="Air Cargo">
+          <div class="service-content">
+            <h3>Air Cargo</h3>
+            <p>Express air freight for time-critical shipments. Priority handling and guaranteed delivery windows worldwide.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="sea.jpg" alt="Ocean Freight">
+          <div class="service-content">
+            <h3>Ocean Freight</h3>
+            <p>Cost-effective sea cargo solutions for large shipments. FCL and LCL options with port-to-port and door-to-door service.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="rail.jpg" alt="Rail Transport">
+          <div class="service-content">
+            <h3>Rail Transport</h3>
+            <p>Efficient overland freight via rail networks. Ideal for heavy cargo across continental routes.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="warehousing.jpg" alt="Warehousing & Fulfillment">
+          <div class="service-content">
+            <h3>Warehousing & Fulfillment</h3>
+            <p>Secure storage facilities with inventory management. Pick, pack, and ship services for e-commerce businesses.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works-section">
+  <div class="how-it-works">
+    <h3>How It Works</h3>
+    <p>Shipping with us is simple. Four easy steps from pickup to delivery.</p>
+
+    <div class="steps-container">
+      <div class="step-item">
+        <div class="step-icon">
+          <i class="fas fa-file-signature"></i>
+        </div>
+        <h4>Create Shipment</h4>
+        <p>Request a quote or create a shipment online. Our team will confirm pickup details within minutes.</p>
+      </div>
+
+      <div class="step-connector">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="step-item">
+        <div class="step-icon">
+          <i class="fas fa-truck-pickup"></i>
+        </div>
+        <h4>Pickup or Drop-off</h4>
+        <p>Schedule a pickup from your location or drop off at any of our 500+ service points worldwide.</p>
+      </div>
+
+      <div class="step-connector">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="step-item">
+        <div class="step-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <h4>Track in Real-Time</h4>
+        <p>Monitor your shipment 24/7 with live GPS tracking and automated status notifications.</p>
+      </div>
+
+      <div class="step-connector">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="step-item">
+        <div class="step-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <h4>Delivered Safely</h4>
+        <p>Your package arrives on time with proof of delivery. Satisfaction guaranteed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+     
+      <section class="global-network">
+       <div class="network-content"></div>
+        <h5 class="cbw-head">Connecting Businesses <mark>Worldwide</mark></h5>
+        <P class="cbw-para">Our extensive network spans across 190+ countries with strategically located hubs ensuring your cargo reaches any destination efficiently. From major ports to remote locations, we've got you covered.</P>
+
+        
+           <div class="business-stats">
+            <div class="b-stat"><h5>500+</h5>
+        <p>Service Points</p></div>
+          
+          <div class="b-stat"><h5>50+</h5>
+        <p>Air Routes</p></div>
+        
+          <div class="b-stat"><h5>100+</h5>
+        <p>Sea Ports</p>
+          </div>
+       </div>
+         
+           <div class="region">
+            <div class="locations"><h6>North America</h6>
+           <p>USA, Canada, Mexico</p>
+            </div>
+           
+           <div class="locations"><h6>Europe</h6>
+           <p>UK, Germany, France, Netherlands</p></div>
+           
+           <div class="locations"><h6>Asia Pacific</h6>
+           <p>China, Japan, Singapore, Australia</p></div>
+           
+
+           <div class="locations"></i><h6>Middle East</h6>
+           <p>UAE, Saudi Arabia, Qatar</p></div>
+           
+
+           <div class="locations"><h6>Africa</h6>
+           <p>Nigeria, South Africa, Kenya, Egypt</p></div>
+           
+
+           <div class="locations"><h6>South America</h6>
+           <p>Brazil, Argentina, Chile</p>
+          </div>
+           </div>
+      </section>
+
+        <section class="reviews-section" id="reviews">
+  <h2>What Our Clients Say</h2>
+  <p class="subtitle">
+    Don't just take our word for it. Here's what businesses across the world say about partnering with Ridgeport Logistics.
+  </p>
+
+  <div class="reviews-grid">
+
+    <!-- Review Card 1 -->
+    <div class="review-card">
+      <div class="quote-icon">“</div>
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        "Ridgeport Logistics has transformed our supply chain. Their real-time tracking and reliable delivery have helped us reduce shipping costs by 30%."
+      </p>
+      <div class="reviewer">
+        <div class="avatar">SC</div>
+        <div class="reviewer-info">
+          <h4>Sarah Chen</h4>
+          <p>Supply Chain Director</p>
+          <span>TechFlow Industries</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Card 2 -->
+    <div class="review-card">
+      <div class="quote-icon">“</div>
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        "We've been using their international freight services for 3 years. The customs clearance support alone has saved us countless hours."
+      </p>
+      <div class="reviewer">
+        <div class="avatar">MR</div>
+        <div class="reviewer-info">
+          <h4>Michael Rodriguez</h4>
+          <p>Operations Manager</p>
+          <span>Global Imports Co.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Card 3 -->
+    <div class="review-card">
+      <div class="quote-icon">“</div>
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        "Outstanding service! Our e-commerce fulfillment has never been smoother. The team goes above and beyond for every shipment."
+      </p>
+      <div class="reviewer">
+        <div class="avatar">EW</div>
+        <div class="reviewer-info">
+          <h4>Emily Watson</h4>
+          <p>CEO</p>
+          <span>StyleBox Online</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Card 4 -->
+    <div class="review-card">
+      <div class="quote-icon">“</div>
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        "Knowing our goods are fully insured and handled by professionals makes all the difference. Ridgeport has earned our complete trust. Excellent service!"
+      </p>
+      <div class="reviewer">
+        <div class="avatar">RH</div>
+        <div class="reviewer-info">
+          <h4>Ryan Howard</h4>
+          <p>CEO</p>
+          <span>Prime Retail Group</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+
+   <section class="cta-section">
+  <div class="cta-content">
+    <h2>Ready to Ship with Confidence?</h2>
+    <p>
+      Join thousands of businesses across Nigeria and beyond who trust Ridgeport Logistics 
+      with their shipments. Fast quotes, real-time tracking, and reliable delivery every time.
+    </p>
+
+    <div class="cta-buttons">
+      <button class="free-quote-button">Get a Free Quote</button>
+      <button class="track-shipment">Track Shipment</button>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#track">Track Shipment</a></li>
+      <li><a href="#" class="quote-mobile">Get a Quote</a></li>
+    </ul>
+  </div>
+
+  <script src="shipping.js">
+    
+  </script>
+
+  <!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Column 1: Company Info + Newsletter -->
+    <div class="footer-col footer-col-main">
+      <a href="/" class="footer-logo">
+        <img src="logo.jpg" alt="Ridgeport Logistics">
+        <span>Ridgeport Logistics</span>
+      </a>
+      <p class="footer-desc">
+        Delivering excellence in global logistics with precision, reliability, and care. 
+        Connecting businesses across Nigeria and 190+ countries.
+      </p>
+
+      <!-- Newsletter Signup -->
+      <div class="newsletter">
+        <h4>Stay Updated</h4>
+        <p class="newsletter-text">Get logistics tips, rate updates & industry news delivered to your inbox.</p>
+        
+        <form class="newsletter-form" action="#" method="post">
+          <input type="email" 
+                 placeholder="Enter your email address" 
+                 required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <small>We respect your inbox. Unsubscribe anytime.</small>
+      </div>
+
+      <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#track">Track Shipment</a></li>
+        <li><a href="#">Get a Quote</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Services -->
+    <div class="footer-col">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#">Domestic Shipping</a></li>
+        <li><a href="#">International Shipping</a></li>
+        <li><a href="#">Air Cargo</a></li>
+        <li><a href="#">Ocean Freight</a></li>
+        <li><a href="#">Warehousing & Fulfillment</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Contact -->
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i>151 N Broadway Street Middletown Delaware US</li>
+        <li><i class="fas fa-phone"></i> +1 (803) 580-7589</li>
+        <li><i class="fas fa-envelope"></i> info@ridgeportlogistics.com</li>
+      </ul>
+      
+      <h4 style="margin-top: 35px;">Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>&copy; 2026 Ridgeport Logistics. All Rights Reserved.</p>
+    <p>Made for All businesses • Global reach</p>
+  </div>
+    </footer>
+  </body>
+</html>
